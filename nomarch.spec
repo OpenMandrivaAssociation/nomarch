@@ -6,7 +6,6 @@ URL:       http://rus.members.beeb.net/nomarch.html
 License:   GPL
 Source:    ftp://ftp.ibiblio.org/pub/Linux/utils/compress/%{name}-%{version}.tar.bz2
 Group:     Archiving/Compression
-BuildRoot: %{_tmppath}/%{name}-root
 Provides:  arc
 
 %description
