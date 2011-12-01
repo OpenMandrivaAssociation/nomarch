@@ -22,11 +22,11 @@ you can still run into it every so often.
 %make CFLAGS="%{optflags}"
 
 %install
-[ "$RPM_BUILD_ROOT" != "/" ] && rm -rf $RPM_BUILD_ROOT
-%makeinstall_std BINDIR=$RPM_BUILD_ROOT/usr/bin MANDIR=$RPM_BUILD_ROOT%{_mandir}/man1
+[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
+%makeinstall_std BINDIR=%{buildroot}/usr/bin MANDIR=%{buildroot}%{_mandir}/man1
 
 %clean
-[ "$RPM_BUILD_ROOT" != "/" ] && rm -rf $RPM_BUILD_ROOT
+[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
 %files
 %defattr(0644, root, root, 0755)
