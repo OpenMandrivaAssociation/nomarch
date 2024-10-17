@@ -4,7 +4,7 @@ Version:	1.4
 Release:	18
 Group:		Archiving/Compression
 License:	GPLv2
-Url:		http://rus.members.beeb.net/nomarch.html
+Url:		https://rus.members.beeb.net/nomarch.html
 Source0:	ftp://ftp.ibiblio.org/pub/Linux/utils/compress/%{name}-%{version}.tar.bz2
 Provides:	arc
 
