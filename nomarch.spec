@@ -8,6 +8,7 @@ Url:		https://rus.members.beeb.net/nomarch.html
 Source0:	ftp://ftp.ibiblio.org/pub/Linux/utils/compress/%{name}-%{version}.tar.bz2
 Provides:	arc
 
+BuildRequires:	make
 %description
 nomarch lists/extracts/tests `.arc' archives. (It also handles `.ark'
 files, they're exactly the same.) This is a *very* outdated file
